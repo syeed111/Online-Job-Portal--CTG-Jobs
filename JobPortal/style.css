@@ -1,0 +1,10 @@
+.banner{
+  position: relative;
+}
+.banner_heading{
+  position: absolute;
+  top:130px;
+  left: 350px;
+  text-decoration: double;
+  color:whitesmoke;
+}
