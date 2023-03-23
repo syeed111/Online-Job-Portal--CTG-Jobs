@@ -38,9 +38,17 @@
           <li class="nav-item">
             <a class="nav-link" href="Blogs">Blogs</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="SignIn">Sign In</a>
-          </li>
+          
+          <div>
+            <label for="name-input">Name:</label>
+            <input id="name-input" type="text"/>
+          </div>
+          <div>
+            <label for="email-input">Email:</label>
+            <input id="email-input" type="email"/>
+          </div>
+          <button id="signin-btn">Sign In</button>
+          
           <li class="nav-item">
             <a class="nav-link" href="PostJob">Post Job</a>
           </li>
@@ -56,9 +64,85 @@
    <!-- Banner heading -->
    <h1 class="banner_heading">Find Your Perfect Job</h1>
  
+   <main>
+   
+    
+    <section id="about">
+      <h2>About Us</h2>
+      <p>WE(SADMAN AND IMTIAZ) ARE 2 UNDERGRADUATE STUDENTS FROM IIUC.</p>
+    </section>
+    
+    <section id="jobs">
+      <h2 class="row">COMPANIES</h2>
+      <ul>
+        <li>
+          <h3 class ="column">SENIOR Software Engineer</h3>
+           <img src="tiger-it.png" alt="">
+          <p>TIGER IT</p>
+        </li>
+        <li>
+          <h3 class="column">DEV OPS Engineer</h3>
+           <img src="tiger-it.png" alt="">
+          <p>TIGER IT</p>
+        </li>
+        <li>
+          <h3 class="column">FULL STACK WEB DEVELOPER</h3>
+          <img src="Enosis - Shortcut.lnk" alt="">
+          <p>Enosis Solution</p>
+        </li>
+        <li>
+            <h3 class="column">DEV OPS Engineer</h3>
+             <img src="tiger-it.png" alt="">
+            <p>TIGER IT</p>
+          </li>
+          <li>
+            <h3 class="column">JAVA DEVELOPER</h3>
+             <img src="tiger-it.png" alt="">
+            <p>TIGER IT</p>
+          </li>
+          <li>
+            <h3 class="column">JUNIOR SOFTWARE Engineer</h3>
+             <img src="tiger-it.png" alt="">
+            <p>TIGER IT</p>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+
+   <footer>
+    <div class="container">
+      <div class="left-section">
+        <p>&copy; 2023 IMTIAZ and SADMAN</p>
+      </div>
+      <div class="right-section">
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
   </div>
   
-
+  <script src="app.js"></script>
 </body>
 </html>
