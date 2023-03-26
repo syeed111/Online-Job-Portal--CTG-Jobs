@@ -1,0 +1,38 @@
+.banner{
+  position: relative;
+  /* display:inline-block; */
+  padding-bottom: 15px;
+}
+.banner_heading{
+  position: absolute;
+  top:50px;
+  left: 70px;
+  text-decoration: double;
+  color:whitesmoke;
+}
+.searchBar{
+  margin-left: 20%;
+  margin-right: 30%;
+           }
+.dropdown {
+   margin-left: 5%;
+   display: inline-block;
+}
+.heading {
+  background-color: grey;
+  box-sizing: border-box;
+  height:12%;
+}
+.job{
+  height: 12%;
+  background-color: rgb(207, 207, 207);
+}
+
+.company-name
+{
+  
+}
+.job_posts{
+  height:80%;
+  overflow: scroll;
+}
